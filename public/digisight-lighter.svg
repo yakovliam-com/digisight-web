@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" color-interpolation-filters="sRGB" style="margin: auto;" xmlns="http://www.w3.org/2000/svg">
+  <g data-v-decfdd8a="" fill="#1684ac" class="icon-text-wrapper icon-svg-group iconsvg" transform="matrix(8.333333, 0, 0, 8.333333, 0, 0)" style="">
+    <g class="iconsvg-imagesvg" transform="translate(0,0)">
+      <g>
+        <rect fill="#1684ac" fill-opacity="0" stroke-width="2" x="0" y="0" width="60" height="60" class="image-rect"/>
+        <svg filter="url(#colors7215833912)" x="0" y="0" width="60" height="60" filtersec="colorsf9505459272" class="image-svg-svg primary" style="overflow: visible;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.7999999999999998 0.7999999999999998 95.39999 95.39999">
+            <path d="M48.5 94.2L2.8 48.5 48.5 2.8l45.7 45.7-45.7 45.7zm22.9-68.5L25.7 71.4m60.9-15.3L71.4 40.9 33.3 79M79 63.8l-7.6-7.6-30.5 30.4M10.4 40.9l15.2 15.2L63.7 18M18.1 33.3l7.6 7.6 30.5-30.5" fill="none" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(181, 181, 181);"/>
+          </svg>
+        </svg>
+      </g>
+    </g>
+  </g>
+</svg>
