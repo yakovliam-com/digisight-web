@@ -2,14 +2,25 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.scss";
-import { BaseStyles, ThemeProvider } from "@primer/react";
+import { Auth0Provider } from "@auth0/auth0-react";
+import { AUTH0_DOMAIN, AUTH0_CLIENT_ID } from "./environment/environment";
+import { BrowserRouter } from "react-router-dom";
+import { RecoilRoot } from "recoil";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <ThemeProvider colorMode="night" dayScheme="light" nightScheme="dark_dimmed">
-      <BaseStyles>
-        <App />
-      </BaseStyles>
-    </ThemeProvider>
+    <RecoilRoot>
+      <Auth0Provider
+        domain={AUTH0_DOMAIN}
+        clientId={AUTH0_CLIENT_ID}
+        authorizationParams={{
+          redirect_uri: `${window.location.origin}/dashboard`,
+        }}
+      >
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </Auth0Provider>
+    </RecoilRoot>
   </React.StrictMode>
 );

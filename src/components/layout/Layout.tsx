@@ -2,11 +2,7 @@ import { Box } from "@primer/react";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 
-type LayoutProps = {
-  children: React.ReactNode;
-};
-
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <Box
       sx={{ width: "100vw", minHeight: "100vh" }}
